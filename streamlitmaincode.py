@@ -1,8 +1,3 @@
-# ============================================================
-# WEEK 5 - TASK 10
-# FINAL TELECOM AI DASHBOARD
-# ============================================================
-
 import os
 import pandas as pd
 import numpy as np
