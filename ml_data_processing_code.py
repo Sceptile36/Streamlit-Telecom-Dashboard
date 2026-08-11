@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +11,7 @@ from torch.utils.data import TensorDataset, DataLoader
 # ============================================================
 
 
-df = pd.read_csv("D:/Vs code/Skills Docs/filedataset.csv")
+df = pd.read_csv("filename.csv")
 
 print("Dataset loaded successfully!")
 print("Dataset shape:", df.shape)
