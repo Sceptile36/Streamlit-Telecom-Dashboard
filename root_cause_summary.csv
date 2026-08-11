@@ -1,0 +1,24 @@
+Observation,Possible_Root_Cause,Recommended_Action,Count
+High Latency,Core network congestion,Check UPF utilization,926
+"Low SINR, Low Throughput","High interference, Heavy traffic load","Review neighboring cell configuration, Enable load balancing",199
+"Low RSRP, Low SINR, High Latency, High Packet Loss","Poor radio coverage, High interference, Core network congestion, Backhaul issues","Optimize antenna tilt, Review neighboring cell configuration, Check UPF utilization, Inspect transport network",173
+Unusual KPI combination,Requires further investigation,Review all network KPIs,157
+"High Latency, High Packet Loss","Core network congestion, Backhaul issues","Check UPF utilization, Inspect transport network",130
+"Low SINR, High Latency","High interference, Core network congestion","Review neighboring cell configuration, Check UPF utilization",105
+"Low SINR, High Latency, High Packet Loss","High interference, Core network congestion, Backhaul issues","Review neighboring cell configuration, Check UPF utilization, Inspect transport network",96
+"Low RSRP, Low SINR, High Latency","Poor radio coverage, High interference, Core network congestion","Optimize antenna tilt, Review neighboring cell configuration, Check UPF utilization",91
+Low SINR,High interference,Review neighboring cell configuration,66
+"Low RSRP, Low SINR","Poor radio coverage, High interference","Optimize antenna tilt, Review neighboring cell configuration",53
+"Low RSRP, Low SINR, Low Throughput","Poor radio coverage, High interference, Heavy traffic load","Optimize antenna tilt, Review neighboring cell configuration, Enable load balancing",48
+Low Throughput,Heavy traffic load,Enable load balancing,33
+"Low RSRP, High Latency, High Packet Loss","Poor radio coverage, Core network congestion, Backhaul issues","Optimize antenna tilt, Check UPF utilization, Inspect transport network",31
+"Low RSRP, Low SINR, High Latency, High Packet Loss, Low Throughput","Poor radio coverage, High interference, Core network congestion, Backhaul issues, Heavy traffic load","Optimize antenna tilt, Review neighboring cell configuration, Check UPF utilization, Inspect transport network, Enable load balancing",31
+"Low RSRP, Low SINR, High Latency, Low Throughput","Poor radio coverage, High interference, Core network congestion, Heavy traffic load","Optimize antenna tilt, Review neighboring cell configuration, Check UPF utilization, Enable load balancing",4
+"Low RSRP, High Latency","Poor radio coverage, Core network congestion","Optimize antenna tilt, Check UPF utilization",4
+"High Latency, High Packet Loss, Low Throughput","Core network congestion, Backhaul issues, Heavy traffic load","Check UPF utilization, Inspect transport network, Enable load balancing",3
+"Low SINR, High Latency, High Packet Loss, Low Throughput","High interference, Core network congestion, Backhaul issues, Heavy traffic load","Review neighboring cell configuration, Check UPF utilization, Inspect transport network, Enable load balancing",2
+High Packet Loss,Backhaul issues,Inspect transport network,2
+"Low RSRP, Low SINR, High Packet Loss, Low Throughput","Poor radio coverage, High interference, Backhaul issues, Heavy traffic load","Optimize antenna tilt, Review neighboring cell configuration, Inspect transport network, Enable load balancing",2
+Low RSRP,Poor radio coverage,Optimize antenna tilt,2
+"High Packet Loss, Low Throughput","Backhaul issues, Heavy traffic load","Inspect transport network, Enable load balancing",1
+"Low RSRP, Low Throughput","Poor radio coverage, Heavy traffic load","Optimize antenna tilt, Enable load balancing",1

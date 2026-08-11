@@ -1,0 +1,5 @@
+KPI,Normal,Warning,Critical
+RSRP,> -90 dBm,-90 to -105 dBm,< -105 dBm
+SINR,> 20 dB,10 to 20 dB,< 10 dB
+Latency,< 20 ms,20 to 50 ms,> 50 ms
+Packet Loss,< 1%,1 to 3%,> 3%

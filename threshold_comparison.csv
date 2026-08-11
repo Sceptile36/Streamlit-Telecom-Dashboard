@@ -1,0 +1,4 @@
+Threshold,Percentile,Threshold Value,Detected Anomalies,Anomaly Percentage,Reference False Positives,Reference Missed Anomalies
+Low,90%,0.27218145,821,10.00487448208628,744,660
+Medium,95%,0.33073246,411,5.008530343650987,373,699
+High,99%,0.47313133,83,1.011455032902754,78,732
