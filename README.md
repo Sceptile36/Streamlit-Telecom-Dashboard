@@ -49,8 +49,8 @@ The project includes:
 ## 📂 Project Structure
 
 ```text
-├── app.py
-├── week5amantya.py
+├── streamlitmaincode.py
+├── ml_data_processing_code.py
 ├── filedataset.csv
 ├── requirements.txt
 ├── .gitignore
